@@ -199,6 +199,13 @@ p {
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
 }
+.main-wrapper .details ul {
+  margin: 10px 0 0;
+  padding-left: 18px;
+}
+.main-wrapper .details li {
+  margin-bottom: 6px;
+}
 .main-wrapper .upper-row {
   position: relative;
   overflow: hidden;
@@ -250,6 +257,15 @@ p {
   height: 12px;
   background: #7bc2d3;
 }
+.skillset .skill-tags span {
+  display: inline-block;
+  background: #eef5f7;
+  color: #2d7788;
+  border-radius: 3px;
+  padding: 3px 10px;
+  margin: 0 6px 8px 0;
+  font-size: 13px;
+}
 .footer {
   padding: 30px;
   padding-top: 60px;
@@ -295,6 +311,11 @@ p {
     float: left;
     position: relative;
     top: 1px;
+  }
+  .skillset .skill-tags {
+    display: inline-block;
+    width: 70%;
+    float: left;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
